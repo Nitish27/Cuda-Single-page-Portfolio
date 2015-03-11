@@ -1,0 +1,212 @@
+/**
+    Base CSS
+    Author: Nitish
+**/
+
+/*CSS RESET*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, nav, output, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html, body {
+    min-height: 100%; 
+    line-height: 1;
+    overflow-x : hidden;
+    -webkit-font-smoothing: antialiased;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+pre,
+code,
+samp {
+    font-family: "Consolas", monospace;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, button, select,
+a, a:active, a:hover {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+b, strong {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+button, input[type="submit"] {
+    cursor: pointer;
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+
+/* GRID */
+
+.row {
+    display: block;
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+    clear: both;
+}
+[class*="col-"] {
+    float: left;
+    display: block;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+.col-1 {
+    width: 8.33333%;
+}
+ .col-2 {
+    width: 16.66667%;
+}
+ .col-3 {
+    width: 25%;
+}
+ .col-4 {
+    width: 33.33333%;
+}
+ .col-5 {
+    width: 41.66667%;
+}
+ .col-6 {
+    width: 50%;
+}
+ .col-7 {
+    width: 58.33333%;
+}
+ .col-8 {
+    width: 66.66667%;
+}
+ .col-9 {
+    width: 75%;
+}
+ .col-10 {
+    width: 83.33333%;
+}
+ .col-11 {
+    width: 91.66667%;
+}
+ .col-12 {
+    width: 100%;
+}
+ .offset-1 {
+    margin-left: 8.33333%;
+}
+ .offset-2 {
+    margin-left: 16.66667%;
+}
+ .offset-3 {
+    margin-left: 25%;
+}
+ .offset-4 {
+    margin-left: 33.33333%;
+}
+ .offset-5 {
+    margin-left: 41.66667%;
+}
+ .offset-6 {
+    margin-left: 50%;
+}
+ .offset-7 {
+    margin-left: 58.33333%;
+}
+ .offset-8 {
+    margin-left: 66.66667%;
+}
+ .offset-9 {
+    margin-left: 75%;
+}
+ .offset-10 {
+    margin-left: 83.33333%;
+}
+ .offset-11 {
+    margin-left: 91.66667%;
+}
+
+/* GENERAL */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.ta-left {
+    text-align: left;
+}
+.ta-right {
+    text-align: right;
+}
+.ta-center {
+    text-align: center;
+}
+.clr {
+    clear: both;
+}
+
+/* CLEARFIX */
+.row:after,
+.wrap:after,
+.left:after,
+.right:after,
+.clrfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
+}
