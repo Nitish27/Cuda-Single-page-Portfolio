@@ -1,10 +1,3 @@
-/*
-
-
-
-*/
-
-
 (function($) {
 
 	$.fn.diagram = function(params){

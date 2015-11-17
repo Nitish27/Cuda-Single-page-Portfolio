@@ -35,7 +35,7 @@ section{
   padding: 0;
 }
 .logo{
-  padding: 10px 30px;
+  padding: 10px 40px;
 }
 .intro{
 	margin: 10em 4em 2em;
@@ -101,6 +101,8 @@ section{
 }
 #team img{
   border-radius: 50%;
+  width: 201px;
+  height: 177px;
 }
 #team h1:after{
 	background: #c8d9e5;
@@ -556,7 +558,7 @@ xgallery
 
 .oppenned .sub-menu {
   opacity: 1;
-  height: 400px;
+  height: 415px;
   width: 400px;
 }
 
@@ -571,8 +573,8 @@ xgallery
 .oppenned span:nth-child(1) { transform: rotate(45deg) translateY(12px) translateX(12px); }
 
 .oppenned span:nth-child(2) {
-  height: 400px;
-  width: 400px;
+  height: 425px;
+  width: 425px;
   right: -160px;
   top: -160px;
   border-radius: 50%;

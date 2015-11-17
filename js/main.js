@@ -20,17 +20,6 @@ $(function(){
 		$('section').css({ minHeight: $(window).innerHeight() + 'px' });
 	
 	});
-	
-	// Responsive Menu
-	$(".menu-toggle").on('click', function() {
-		
-		$(this).toggleClass("on");
-	
-		$('nav.responsive-nav').toggleClass("pushy-menu");
-		
-		$("section").toggleClass('section-push');
-	
-	});
 
 	// Pie Charts For Skill Section
 	$('#diagram-id-1').diagram({ 
