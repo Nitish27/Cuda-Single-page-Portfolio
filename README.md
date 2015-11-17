@@ -1,2 +1,2 @@
 # Single-page-Potfolio
-I have develop this template for those who want to create single page portfolio.
+Click here to see <a href="http://nitishh.com/demo/cuda/">Demo</a>
